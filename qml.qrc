@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pictures/Bild.jpg</file>
+        <file>pictures/mealAppIcon.png</file>
+        <file>pictures/mealAppIcon2.jpg</file>
+        <file>pictures/placeholderjpg.jpg</file>
+        <file>qml/basic/QmlButton.qml</file>
+        <file>qml/basic/QmlCheckBox.qml</file>
+        <file>qml/basic/QmlColorDialog.qml</file>
+        <file>qml/basic/QmlComboBox.qml</file>
+        <file>qml/basic/QmlImage.qml</file>
+        <file>qml/basic/QmlListDelegate.qml</file>
+        <file>qml/basic/QmlListDelegateMealProperties.qml</file>
+        <file>qml/basic/QmlShoppingList.qml</file>
+        <file>qml/basic/QmlStar.qml</file>
+        <file>qml/homepage/HomePage.qml</file>
+        <file>qml/homepage/HomePageHeader.qml</file>
+        <file>qml/homepage/HomePageSwipeView.qml</file>
+        <file>qml/main/FeedBackLabel.qml</file>
+        <file>qml/main/main.qml</file>
+        <file>qml/main/MealAdd.qml</file>
+        <file>qml/main/MealWeekSelectMenu.qml</file>
+        <file>qml/main/MessageBox.qml</file>
+        <file>qml/main/NewCamera.qml</file>
+        <file>qml/main/QuickMenu.qml</file>
+        <file>qml/mealoverview/MealOverview.qml</file>
+        <file>qml/mealoverview/MealPropertyVisiElement.qml</file>
+        <file>qml/mealoverview/MealRecommendation.qml</file>
+        <file>qml/mealoverview/Rating.qml</file>
+        <file>qml/settings/Settings.qml</file>
+        <file>qml/settings/SortView.qml</file>
+        <file>qml/weekview/WeekView.qml</file>
+        <file>qml/weekview/WeekViewItem.qml</file>
+    </qresource>
+</RCC>
