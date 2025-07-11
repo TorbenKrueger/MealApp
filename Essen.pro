@@ -1,6 +1,8 @@
-QT += quick widgets androidextras
+QT += quick widgets
 
-CONFIG += c++11
+CONFIG += c++17
+
+# Requires Qt 6.9.1
 
 #Icon by https://www.flaticon.com/de/autoren/andinur
 
