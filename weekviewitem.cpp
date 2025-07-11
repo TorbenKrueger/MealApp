@@ -14,6 +14,12 @@ WeekViewItem::WeekViewItem(MealItem *item, QObject *parent) : QObject(parent)
     setMealItem(item);
 }
 
+WeekViewItem::~WeekViewItem()
+{
+    if (mItem)
+        mItem->disconnect(this);
+}
+
 void WeekViewItem::setMealItem(MealItem *item, int persCount)
 {
     mItem = item;
@@ -112,6 +118,11 @@ int WeekViewItem::persCount() const
 {
     return mPersonCount;
 }
+
+int WeekViewItem::personCount() const
+{
+    return persCount();
+}
 void WeekViewItem::setPersCount(int count)
 {
     if (mPersonCount != count) {
@@ -119,6 +130,11 @@ void WeekViewItem::setPersCount(int count)
         emit personCountChanged(count);
         emit dataChanged();
     }
+}
+
+void WeekViewItem::setPersonCount(int count)
+{
+    setPersCount(count);
 }
 
 int WeekViewItem::picRotation() const
