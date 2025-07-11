@@ -18,7 +18,6 @@ int MealListModel::rowCount(const QModelIndex &parent) const
     if (parent.isValid() || !mList)
         return 0;
 
-    // FIXME: Implement me!
     return mList->items().size();
 }
 
@@ -84,7 +83,7 @@ Qt::ItemFlags MealListModel::flags(const QModelIndex &index) const
     if (!index.isValid())
         return Qt::NoItemFlags;
 
-    return Qt::ItemIsEditable; // FIXME: Implement me!
+    return QAbstractListModel::flags(index) | Qt::ItemIsEditable;
 }
 
 QHash<int, QByteArray> MealListModel::roleNames() const

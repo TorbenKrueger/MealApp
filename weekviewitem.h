@@ -21,6 +21,7 @@ class WeekViewItem : public QObject
 
 public:
     explicit WeekViewItem(MealItem *item, QObject *parent = nullptr);
+    ~WeekViewItem();
 
     int personCount() const;
     void setPersonCount(int count);
