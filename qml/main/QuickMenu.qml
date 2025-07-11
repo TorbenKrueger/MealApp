@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.15
 
 Rectangle {
     id: root
@@ -83,7 +83,7 @@ Rectangle {
                 objects = []
 
                 for (i = 0; i < model.length; i++) {
-                    var obj = Qt.createQmlObject("import QtQuick 2.0;
+                    var obj = Qt.createQmlObject("import QtQuick 2.15;
                     Rectangle {
                         height: "+defHeight+";
                         width: "+defWidth+";

@@ -1,7 +1,7 @@
-import QtQuick 2.0
+import QtQuick 2.15
 
-import QtQuick.Controls 2.0
-import QtMultimedia 5.12
+import QtQuick.Controls 2.15
+import QtMultimedia 5.15
 
 import "../basic"
 
@@ -19,7 +19,7 @@ Rectangle {
 
     onVisibleChanged: {
         if (visible){
-            cameraObj = Qt.createQmlObject(" import QtQuick 2.0;import QtQuick.Controls 2.0;import QtMultimedia 5.12;
+            cameraObj = Qt.createQmlObject(" import QtQuick 2.15;import QtQuick.Controls 2.15;import QtMultimedia 5.15;
         Camera {
             id: camera;
             Component.onCompleted: {
