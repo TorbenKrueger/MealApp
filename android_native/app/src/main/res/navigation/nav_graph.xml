@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homePageFragment">
+
+    <!-- Navigation Knoten entsprechen den QML Seiten -->
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.example.mealapp.ui.HomePageFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/weekViewFragment"
+        android:name="com.example.mealapp.ui.WeekViewFragment"
+        android:label="Week" />
+    <fragment
+        android:id="@+id/mealAddFragment"
+        android:name="com.example.mealapp.ui.MealAddFragment"
+        android:label="Add" />
+    <fragment
+        android:id="@+id/mealOverviewFragment"
+        android:name="com.example.mealapp.ui.MealOverviewFragment"
+        android:label="Overview" />
+    <fragment
+        android:id="@+id/shoppingListFragment"
+        android:name="com.example.mealapp.ui.ShoppingListFragment"
+        android:label="Shopping" />
+</navigation>
